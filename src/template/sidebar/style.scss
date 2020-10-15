@@ -1,0 +1,190 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../styles/variables.scss";
+
+$fontColor: $sidebarFontColor;
+$backgroundColor: $sidebarBgColor;
+$navItemHover: $sidebarNavItemHover;
+$navItemExpanded: $sidebarNavItemExpanded; // Background quando os itens encontram-se em aberto.
+$navItemSelected: $sidebarNavItemSelected; // Background do título do menu que está ativo no momento.
+$navItemBoderLeft: $sidebarNavItemBoderLeft;
+$navItemActive: $sidebarNavItemActive;
+
+/* ---------------------------------------------------
+      SIDEBAR STYLE
+  ----------------------------------------------------- */
+.sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: $backgroundColor;
+  color: $fontColor;
+  transition: all 0.5s;
+  margin-left: -130px;
+  overflow: auto;
+}
+
+.sidebar.is-open {
+  margin-left: 0;
+  transition: 0.5s;
+}
+
+.collapsable {
+  min-width: 120px;
+  max-width: 120px;
+  background: $backgroundColor;
+  color: $fontColor;
+  transition: all 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.collapsable.is-collapsable {
+  margin-right: 130px;
+  width: 250px;
+}
+
+.side-menu .nav .item {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.side-menu .nav .item-active {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  span {
+    color: $navItemActive;
+  }
+}
+
+img.item-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.side-menu .nav-link,
+.side-menu .nav-link:hover,
+.side-menu .nav-link:focus {
+  color: $fontColor !important;
+  cursor: pointer;
+}
+
+.side-menu .nav-item .nav-link {
+  padding: 15px 5px 15px 15px;
+}
+
+.side-menu .nav-item {
+  border-bottom: 1px solid #425166;
+}
+
+.active span {
+  color: $navItemActive;
+  font-family: "Lato-Black";
+}
+
+.nav-item:hover {
+  background: $navItemHover;
+}
+
+.menu-open {
+  background: $navItemExpanded;
+}
+
+.items-menu {
+  color: $fontColor;
+  background: $navItemExpanded;
+}
+
+li a.dropdown-toggle::after {
+  float: right;
+  margin-top: 6px;
+  font: normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f107";
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  vertical-align: 0;
+  min-width: 16px;
+}
+
+li a.dropdown-toggle-open::after {
+  float: right;
+  margin-top: 6px;
+  font: normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f106";
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  vertical-align: 0;
+  min-width: 16px;
+}
+
+.side-menu {
+  height: calc(100vh - 130px);
+}
+
+.selected {
+  background-color: $navItemSelected;
+  border-left: 4px solid $navItemBoderLeft;
+}
+
+/* ---------------------------------------------------
+      CONTENT STYLE
+  ----------------------------------------------------- */
+.content {
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0;
+  height: 100vh;
+}
+
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+a,
+a:hover,
+a:focus {
+  color: $fontColor;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.menu-hamburguer {
+  float: right;
+  @extend .mt-3;
+  @extend .mr-3;
+  cursor: pointer;
+}
+
+.menu-hamburger-collapsable {
+  @extend .mt-3;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .content.is-open {
+    margin-left: 0;
+  }
+
+  .sidebar.is-open {
+    min-width: 250px;
+    max-width: 100%;
+    margin-left: 0;
+    transition: all 0.5s, height 0s;
+  }
+
+  .sidebar.is-open > .sidebar-header span {
+    display: unset;
+  }
+}

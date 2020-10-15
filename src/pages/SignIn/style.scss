@@ -1,0 +1,12 @@
+.center-form {
+    width: 20%;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) 
+{
+    .center-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

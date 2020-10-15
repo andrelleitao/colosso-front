@@ -1,0 +1,62 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './variables.scss';
+
+/* Fonts
+============================== */
+@font-face {
+    font-family: 'Lato';
+    font-weight: 400;
+    src: local('Lato'), url(../core/fonts/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    font-weight: 700;
+    src: local('Lato'), url(../core/fonts/Lato/Lato-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    font-weight: 900;
+    src: local('Lato'), url(../core/fonts/Lato/Lato-Black.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Links
+============================== */
+a {
+    text-decoration: none !important;
+    color: $primaryColor !important;
+}
+
+/* Buttons
+============================== */
+.btn-primary {
+    @extend .btn-primary;
+    background-color: $btnPrimaryBgColor;
+    border: none; 
+    &:hover {
+        background-color: $btnPrimaryHover;
+    }
+    &:active {
+        background-color: $btnPrimaryHover !important;
+    }
+    &:focus {
+        background-color: $btnPrimaryHover !important;
+    }
+}
+
+.btn-secondary {
+    @extend .btn-secondary;
+    background-color: $secondaryColor;
+    border: none; 
+    &:hover {
+        background-color: $btnPrimaryHover !important;
+    }
+    &:active {
+        background-color: $btnPrimaryHover;
+    }
+}

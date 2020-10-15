@@ -1,0 +1,160 @@
+{
+  "form": {
+    "field": {
+      "email": "Email",
+      "message": {
+        "emailRequired": "O email é obrigatório",
+        "passwordRequired": "A senha é obrigatória",
+        "passwordConfirmationRequired": "A confirmação de senha é obrigatória",
+        "invalidPasswordConfirmation": "Invalid password confirmation",
+        "invalidEmail": "Email inválido",
+        "firstNameRequired": "O nome é obrigatório",
+        "lastNameRequired": "O sobrenome é obrigatório",
+        "dateBirthRequired": "A data de aniversário é obrigatória",
+        "invalidDateBirth": "Data de nascimento inválida",
+        "genderRequired": "O campo gênero é obrigatório",
+        "minPasswordLength": "O password deve ter no mínimo {{length}} dígitos",
+        "nameRequired": "O nome é obrigatório",
+      },
+      "enabled": "Habilitado",
+      "name": "Nome",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "gender": "Sexo",
+      "active": "Ativo",
+      "dateOfBirth": "Data de nascimento",
+      "female": "Feminino",
+      "male": "Masculino",
+      "password": "Senha",
+      "passwordConfirmation": "Confirmação de senha"
+    },
+    "button": {
+      "login": "Login",
+      "createAccount": "Create an account",
+      "cancel": "Cancelar",
+      "save": "Salvar"
+    },
+    "label": {
+      "choose": "Choose..."
+    }
+  },
+  "component": {
+    "language": {
+      "portuguese": "Portuguese",
+      "english": "English",
+      "title": "Languages"
+    },
+    "addRemoveRole": {
+      "availableRoles": "Funções disponíveis",
+      "addedRoles": "Funções adicionadas"
+    },
+    "addRemoveGroup": {
+      "availableGroups": "Grupos disponíveis",
+      "addedGroups": "Grupos adicionados"
+    }
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "administration": "Administração",
+    "group": "Grupos",
+    "user": "Usuários",
+    "role": "Regras"
+  },
+  "module": {
+    "administration": {
+      "group": {
+        "title": "Gerenciamento de grupos"
+      },
+      "role": {
+        "title": "Gerenciamento de regras"
+      }
+    }
+  },
+  "field": {
+    "email": "Email",
+    "dateOfBirth": "Data de nascimento",
+    "newPassword": "Nova senha",
+    "search": "Pesquise",
+    "name": "Nome",
+    "disabled": "Desabilitado",
+    "enabled": "Habilitado"
+  },
+  "message": {
+    "field": {
+      "emailRequired": "O email é obrigatório",
+      "passwordRequired": "A senha é obrigatória",
+      "passwordConfirmationRequired": "A confirmação de senha é obrigatória",
+      "invalidPasswordConfirmation": "Invalid password confirmation",
+      "invalidEmail": "Email inválido",
+      "firstNameRequired": "O nome é obrigatório",
+      "lastNameRequired": "O sobrenome é obrigatório",
+      "dateBirthRequired": "A data de aniversário é obrigatória",
+      "invalidDateBirth": "Data de nascimento inválida",
+      "genderRequired": "O campo gênero é obrigatório",
+      "passwordMinimunSize": "O password deve ter no mínimo {{password.minimumSize}} dígitos",
+      "nameRequired": "O nome é obrigatório"
+    },
+    "entity": {
+      "createdSuccessfully": "Criado com sucesso.",
+      "updatedSuccessfully": "Atualizado com sucesso.",
+      "removedSuccessfully": "Removido com sucesso."
+    }
+  },
+  "signIn": {
+    "keepMeConnected": "Mantenha-me conectado",
+    "forgotYourPassword": "Esqueceu sua senha?"
+  },
+  "button": {
+    "login": "Entrar",
+    "createAccount": "Crie uma conta",
+    "send": "Enviar",
+    "update": "Alterar",
+    "advancedSearch": "Pesquisa avançada",
+    "close": "Fechar",
+    "search": "Pesquisar",
+    "save": "Salvar",
+    "yes": "Sim",
+    "no": "Não",
+    "reset": "Limpar"
+  },
+  "language": {
+    "portuguese": "Português",
+    "english": "Inglês",
+    "title": "Idiomas"
+  },
+  "activeAccount": {
+    "successfullyActivated": "Registro ativado com sucesso."
+  },
+  "forgotPassword": {
+    "title": "Recuperação de senha",
+    "instruction": "Digite o email que você utiliza para acessar sua conta.",
+    "sentEmailMessage": "Você receberá um email com instruções para alterar sua senha."
+  },
+  "signUp": {
+    "title": "Crie sua conta",
+    "instruction": "Digite os dados abaixo para criar sua conta e acessar a plataforma.",
+    "haveAnAccount": "Eu já tenho uma conta",
+    "accountCreated": "Conta criada com sucesso"
+  },
+  "resetPassword": {
+    "title": "Redefinição de senha",
+    "instruction": "Digite a nova senha. Confirme a nova senha e clique em alterar.",
+    "passwordUpdated": "Senha atualizada com sucesso"
+  },
+  "crud": {
+    "tab": {
+      "list": "Lista",
+      "new": "Novo"
+    },
+    "modalSearch": {
+      "title": "Advanced search"
+    },
+    "grid": {
+      "noRecordsFound": "Não foram encontrados registros."
+    },
+    "modalDelete": {
+      "title": "Remover",
+      "message": "Você tem certeza?"
+    }
+  }
+}

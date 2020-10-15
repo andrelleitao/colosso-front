@@ -1,0 +1,63 @@
+@import "../../../styles/variables.scss";
+
+$backgroundColor:  $gridPaginationBgColor;
+$fontColor: $gridFontColor;
+
+.crud {
+    .container-fluid {
+        padding: 10px !important;
+    }
+
+    .row {
+        margin: 0px !important;
+    }
+
+    .tab-content {
+        padding-top: 20px;
+    }
+
+    .table {
+        margin-top: 10px !important;
+    }
+
+    #crud-tabs .nav-item:hover {
+        background: #fff !important;
+    }
+
+    .noMargin {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    @media screen and (max-width: 600px) {
+        .grid-searchCol1 {
+            margin-bottom: 10px;
+        }
+
+        .grid-searchCol1 .crud-btnSearch {
+            width: 100%;
+        }
+    }
+
+    /* ---------------------------------------------------
+      Pagination
+    ----------------------------------------------------- */
+    .page-item.active .page-link {
+        z-index: 3;
+        color: #fff !important;
+        background-color: $backgroundColor;        
+        border: 1px solid $backgroundColor;
+    }
+
+    .page-link {
+        color: $fontColor !important;
+    }
+
+    .btn-link {
+        color: $fontColor !important;
+    }
+
+    .pagination .disabled span {
+       color: #CCC !important;
+    }
+}

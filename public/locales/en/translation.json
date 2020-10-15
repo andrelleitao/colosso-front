@@ -1,0 +1,166 @@
+{
+  "form": {
+    "field": {
+      "email": "Email",
+      "message": {
+        "emailRequired": "Email is required",
+        "passwordRequired": "Password is required",
+        "passwordConfirmationRequired": "Password confirmation is required",
+        "invalidPasswordConfirmation": "Invalid password confirmation",
+        "invalidEmail": "Invalid email",
+        "firstNameRequired": "First name is required",
+        "lastNameRequired": "Last name is required",
+        "dateBirthRequired": "Date of birth is required",
+        "invalidDateBirth": "Invalid date of birth",
+        "genderRequired": "Gender is required",
+        "minPasswordLength": "Password must be at least {{length}} digits",
+        "nameRequired": "Name is required"
+      },
+      "enabled": "Enabled",
+      "name": "Name",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "gender": "Gender",
+      "active": "Active",
+      "dateOfBirth": "Date of birth",
+      "female": "Female",
+      "male": "Male",
+      "password": "Password",
+      "passwordConfirmation": "Password confirmation"
+    },
+    "button": {
+      "login": "Login",
+      "createAccount": "Create an account",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "label": {
+      "choose": "Choose..."
+    }
+  },
+  "component": {
+    "language": {
+      "portuguese": "Portuguese",
+      "english": "English",
+      "title": "Languages"
+    },
+    "addRemoveRole": {
+      "availableRoles": "Available roles ",
+      "addedRoles": "Added roles"
+    },
+    "addRemoveGroup": {
+      "availableGroups": "Available groups ",
+      "addedGroups": "Added groups"
+    }
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "administration": "Administration",
+    "group": "Groups",
+    "user": "Users",
+    "role": "Roles"
+  },
+  "module": {
+    "administration": {
+      "group": {
+        "title": "Groups management"
+      },
+      "role": {
+        "title": "Roles management"
+      },
+      "user": {
+        "title": "Users management"
+      }
+    }
+  },
+  "field": {
+    "email": "Email",
+    "lastName": "Last name",
+    "female": "Female",
+    "male": "Male",
+    "dateOfBirth": "Date of birth",
+    "newPassword": "New password",
+    "search": "Search",
+    "name": "Name",
+    "disabled": "Disabled",
+    "enabled": "Enabled"
+  },
+  "message": {
+    "field": {
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordConfirmationRequired": "Password confirmation is required",
+      "invalidPasswordConfirmation": "Invalid password confirmation",
+      "invalidEmail": "Invalid email",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "dateBirthRequired": "Date of birth is required",
+      "invalidDateBirth": "Invalid date of birth",
+      "genderRequired": "Gender is required",
+      "passwordMinimunSize": "Password must be at least {{password.minimumSize}} digits",
+      "nameRequired": "Name is required"
+    },
+    "entity": {
+      "createdSuccessfully": "Successfully created.",
+      "updatedSuccessfully": "Successfully updated.",
+      "removedSuccessfully": "Successfully removed."
+    }
+  },
+  "signIn": {
+    "keepMeConnected": "Keep me connected",
+    "forgotYourPassword": "Forgot your password?"
+  },
+  "button": {
+    "login": "Login",
+    "createAccount": "Create an account",
+    "send": "Send",
+    "update": "Update",
+    "advancedSearch": "Advanced search",
+    "close": "Close",
+    "search": "Search",
+    "save": "Save",
+    "yes": "Yes",
+    "no": "No",
+    "reset": "Reset"
+  },
+  "language": {
+    "portuguese": "Portuguese",
+    "english": "English",
+    "title": "Languages"
+  },
+  "activeAccount": {
+    "successfullyActivated": "Registration successfully activated."
+  },
+  "forgotPassword": {
+    "title": "Password recovery",
+    "instruction": "Enter the email you use to access your account.",
+    "sentEmailMessage": "You will receive an email with instructions to change your password."
+  },
+  "signUp": {
+    "title": "Create your account",
+    "instruction": "Enter the data below to create your account and access the platform.",
+    "haveAnAccount": "I already have an account",
+    "accountCreated": "Account successfully created"
+  },
+  "resetPassword": {
+    "title": "Reset password",
+    "instruction": "Enter the new password. Confirm the new password and click update.",
+    "passwordUpdated": "Password updated successfully"
+  },
+  "crud": {
+    "tab": {
+      "list": "List",
+      "new": "New"
+    },
+    "modalSearch": {
+      "title": "Advanced search"
+    },
+    "grid": {
+      "noRecordsFound": "No records found."
+    },
+    "modalDelete": {
+      "title": "Delete",
+      "message": "Are you sure?"
+    }
+  }
+}
